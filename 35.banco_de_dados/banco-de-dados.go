@@ -12,7 +12,7 @@ import (
 
 //Foi feito o go get github.com/go-sql-driver/mysql para baixar a dependência
 func main() {
-	stringConexao := "golang:br2km12_2018@/tutorial?charset=utf8&parseTime=True&loc=Local"
+	stringConexao := "golang:Golang_2021$@/tutorial?charset=utf8&parseTime=True&loc=Local"
 	db, erro := sql.Open("mysql", stringConexao)
 
 	if erro != nil {

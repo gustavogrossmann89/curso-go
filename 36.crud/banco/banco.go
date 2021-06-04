@@ -8,7 +8,7 @@ import (
 
 //Conectar abre a conexão com o banco de dados
 func Conectar() (*sql.DB, error) {
-	stringConexao := "golang:br2km12_2018@/tutorial?charset=utf8&parseTime=True&loc=Local"
+	stringConexao := "golang:Golang_2021$@/tutorial?charset=utf8&parseTime=True&loc=Local"
 
 	db, erro := sql.Open("mysql", stringConexao)
 	if erro != nil {
